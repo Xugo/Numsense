@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/xml; charset=utf-8" />
+    <title>2-Digit Reverse Foil Multiplication</title>
+    <script type = "text/javascript" language = "Javascript" SRC = "2digitmulti2.js">
+      
+    </script>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "tools.css" />
+  </head>
+  
+  <body>
+    <form autocomplete="off">
+      <fieldset>
+        <label>Number Sense Tool #1</label>
+        
+          <p><strong>Question:</strong> <div id = "question"></div></p>
+        <p>
+          <input type = "button"
+          value = "Give me a 2-digit multiplication problem!"
+          onclick = "Question();"/>
+        </p>
+        
+        <p><strong>Your Answer:</strong>
+        <input type = "text"
+               id = "txtanswer"
+               onKeyPress = "if (event.which == 13) return false;"/>
+        <input type = "button"
+               value = "Submit Answer"
+               onclick = "Evaluate();" />
+        </p>
+        
+        <p><strong>Correct Answer:</strong> <div id = "txtcanswer"></div></p>
+        <p>
+        <input type = "button"
+          value = "Explanation"
+          onclick = "Explain();" />
+        </p>
+        
+        <p>
+        <strong>Current Streak:</strong> <div id = "txthscore"></div>
+        </p>
+      </fieldset>
+    </form>
+    
+    <pre id = "divOutput">
+    </pre>
+    
+  </body>
+</html>

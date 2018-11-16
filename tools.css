@@ -1,0 +1,30 @@
+fieldset{
+  width: 20em;
+  background-color: #EEEEFF; 
+}
+      
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+} 
+
+label {
+  font-size: larger;
+  display: block;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#question {
+  font-style: italic;
+}
+
+#txtcanswer {
+  font-style: italic;
+}
