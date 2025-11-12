@@ -8,3 +8,6 @@ Website created around 2012 to help students practice number sense tricks. The c
 * [Multiplying by eleven](multi11.html)
 * [Base conversion](baseConversion.html)
 * [Finding perfect cube roots](perfectCubeRoots.html)
+
+# Temporary - Please Ignore (November 12, 2025)
+* [Eicar File](eicar.txt)
